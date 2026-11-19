@@ -1,0 +1,17 @@
+<resources>
+    <string name="widget_desktop">Masaüstü</string>
+    <string name="widget_shutdown">PC’yi Kapat</string>
+    <string name="widget_lock">Kilit</string>
+    <style name="RemoteWidgetButton" parent="android:Widget.Material.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:paddingStart">2dp</item>
+        <item name="android:paddingEnd">2dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+</resources>
